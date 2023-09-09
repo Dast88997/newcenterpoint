@@ -1,0 +1,4 @@
+body{background:#F4F4F4;}
+.list-group li{background:#EBEAEA;color:#5E17EB;margin-top: 5px;border:none;text-align:center;}
+.list-group li a{color:#5E17EB;text-decoration: none;display: block;font-size:11px;}
+.list-group li:hover{color:#5E17EB;display: block;}

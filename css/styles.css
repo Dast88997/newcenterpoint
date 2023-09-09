@@ -1,0 +1,214 @@
+.header{
+	width:100%;
+	background-color:#ebf0fa;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.menu:hover{
+color:#206040;
+}
+
+
+.rotate{
+	-webkit-transform: rotate(90deg);
+}
+
+.img{
+	width:100%;
+	background-color:#fff;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.middle{
+	width:100%;
+	background-color:#fff;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+.current{
+	width:100%;
+	background-color:#ebfafa;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.cures{
+	width:100%;
+	background-color:#fff;
+	padding-top:50px;
+	padding-bottom:10px;
+}
+
+.stock{
+	width:100%;
+	background-color:#f0f5f5;
+	padding-top:50px;
+	padding-bottom:10px;
+}
+
+.dures{
+	width:100%;
+	background-color:#e0ebeb;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.close{
+	width:100%;
+	background-color:#fff;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.duress{
+	width:100%;
+	background-color:#e0ebeb;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.select{
+	width:100%;
+	background-color:#877abd;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.stew{
+	width:100%;
+	background-color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.section{
+	width:100%;
+	background-color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+table, th, td {
+  border: 2px solid black;
+}
+
+
+.subs{
+	width:100%;
+	background-color:#fff;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.guts{
+	width:100%;
+	background-color:#fff;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+
+
+
+section {
+    padding: 10px 0;
+}
+
+section .section-title {
+    text-align:center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+   
+      .glow {
+      font-size: 30px;
+      color:  #ff0000;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+      from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+      }
+      to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+      }
+	  
+	  
+	  marquee[direction="up"] {
+  height: 100px;
+}
+
+/* blink emulation from https://en.wikipedia.org/wiki/Blink_element */
+
+blink, .blink {
+  -webkit-animation: blink 400s step-end infinite;
+     -moz-animation: blink 400s step-end infinite;
+       -o-animation: blink 400s step-end infinite;
+          animation: blink 400s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  67% { opacity: 0 }
+}
+
+@-moz-keyframes blink {
+  67% { opacity: 0 }
+}
+
+@-o-keyframes blink {
+  67% { opacity: 0 }
+}
+
+@keyframes blink {
+  67% { opacity: 0 }
+}
